@@ -18,10 +18,13 @@ Possible additions:
 - 📁 `tests`: For {testthat} 📦 stuff
 - 📁 `xx-app`: For shiny apps (I will create another template, though)
 - `Dockerfile*`, `docker-compose.yml`: for dockerized apps.
+- Branches: In this projects I don't usually use branches at all. Sometimes, I create issues and branches per feature from the issue.
 
 ## Process
 
-1. Create GitHub Repo
+1. Create GitHub Repo from template
+2. Recommended: use {renv} 📦: `renv::init()` (install if needed)
+3. Create project in RStudio from control version
 
 
 ## Acknowledgements
